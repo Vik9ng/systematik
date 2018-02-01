@@ -1,15 +1,14 @@
-<html>
-<head>
-</head>
+{{ partial "header.html" . }}
+
 <body>
 
     <h1>{{.Title}}</h1>
     
     <section>{{.Content}}</section>
 
-    {{ range .Pages }}
+{{ range .Pages }}
    <h3> {{.Title}} </h3>
-<div>{{.Content}} </div>
+   <div>{{.Content}} </div>
 {{ end }}
 
     
