@@ -5,7 +5,7 @@
     <link>http://example.org/doku/</link>
     <description>Recent content in Dokumentations side on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>da</language>
     <lastBuildDate>Thu, 01 Feb 2018 08:52:44 +0100</lastBuildDate>
     
 	<atom:link href="http://example.org/doku/index.xml" rel="self" type="application/rss+xml" />
@@ -17,7 +17,7 @@
       <pubDate>Thu, 01 Feb 2018 08:53:43 +0100</pubDate>
       
       <guid>http://example.org/doku/typografi/</guid>
-      <description>typografi</description>
+      <description></description>
     </item>
     
     <item>
@@ -26,7 +26,7 @@
       <pubDate>Thu, 01 Feb 2018 08:53:26 +0100</pubDate>
       
       <guid>http://example.org/doku/farver/</guid>
-      <description>farver</description>
+      <description></description>
     </item>
     
   </channel>

@@ -1,5 +1,5 @@
 baseURL = "http://example.org/"
-languageCode = "en-us"
+languageCode = "da"
 title = "My New Hugo Site"
 theme = "systematik"
 sectionPagesMenu = "main"
@@ -17,3 +17,10 @@ sectionPagesMenu = "main"
     weight = 3
     identifier = "Kontakt"
     url = "/Kontakt/"
+
+    [[menu.main]]
+    name = "Post"
+    title = "Post"
+    weight = 4
+    identifier = "post"
+    url = "/post/"

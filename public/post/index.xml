@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nyeste Post&#39;s on My New Hugo Site</title>
+    <link>http://example.org/post/</link>
+    <description>Recent content in Nyeste Post&#39;s on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>da</language>
+    <lastBuildDate>Sun, 04 Feb 2018 17:39:55 +0100</lastBuildDate>
+    
+	<atom:link href="http://example.org/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mad</title>
+      <link>http://example.org/post/mad/</link>
+      <pubDate>Sun, 04 Feb 2018 17:40:55 +0100</pubDate>
+      
+      <guid>http://example.org/post/mad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Meditation</title>
+      <link>http://example.org/post/meditation/</link>
+      <pubDate>Sun, 04 Feb 2018 17:40:39 +0100</pubDate>
+      
+      <guid>http://example.org/post/meditation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Træning</title>
+      <link>http://example.org/post/tr%C3%A6ning/</link>
+      <pubDate>Sun, 04 Feb 2018 17:40:19 +0100</pubDate>
+      
+      <guid>http://example.org/post/tr%C3%A6ning/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
