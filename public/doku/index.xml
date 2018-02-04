@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hello on My New Hugo Site</title>
+    <title>Dokumentations side on My New Hugo Site</title>
     <link>http://example.org/doku/</link>
-    <description>Recent content in hello on My New Hugo Site</description>
+    <description>Recent content in Dokumentations side on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 01 Feb 2018 08:52:44 +0100</lastBuildDate>

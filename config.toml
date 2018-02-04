@@ -2,3 +2,18 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "systematik"
+sectionPagesMenu = "main"
+
+[[menu.main]]
+    name = "Hjem"
+    title = "Hjem"
+    weight = 1
+    identifier = "Hjem"
+    url = "/"
+
+    [[menu.main]]
+    name = "Kontakt"
+    title = "Kontakt"
+    weight = 3
+    identifier = "Kontakt"
+    url = "/Kontakt/"

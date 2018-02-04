@@ -1,6 +1,10 @@
 ---
-title: "Home"
-date: 2018-02-01T09:03:44+01:00
+title: "landing page"
+date: 2018-02-04T13:47:27+01:00
+draft: false
 ---
- Det her er forsiden
- 
+
+Hallo
+
+
+![dav](img/header/header.jpg)
