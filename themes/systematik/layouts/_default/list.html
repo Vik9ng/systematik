@@ -1,14 +1,21 @@
 {{ partial "header.html" . }}
+<div class="row center-xs">
+    <div class="col-xs-6">
+        <div class="box">
+          <ul>
+              {{ range .Data.Pages }}
+                  <li>
+                      <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+                      <time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+                  </li>
+              {{ end }}
+            </ul>
+
+        </div>
+    </div>
+</div>
 
 
-            <ul>
-                {{ range .Data.Pages }}
-                    <li>
-                        <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
-                        <time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
-                    </li>
-                {{ end }}
-              </ul>
 
 
 

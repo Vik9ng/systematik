@@ -1,10 +1,7 @@
 ---
-title: "landing page"
+title: "Blogger Tema"
 date: 2018-02-04T13:47:27+01:00
 draft: false
 ---
 
-Hallo
-
-
-![dav](img/header/header.jpg)
+velkommen til blogger theme
