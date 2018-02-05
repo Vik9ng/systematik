@@ -1,5 +1,5 @@
 {{ partial "header.html" . }}
-<div class="row center-xs">
+<!-- <div class="row center-xs">
     <div class="col-xs-6">
         <div class="box">
           <ul>
@@ -15,9 +15,23 @@
     </div>
 </div>
 
+ -->
+{{ range .Data.Pages }}
+   <li class="cards__item">
+     <div class="card">
+       <div class="card__image card__image--record">
+            <img src="{{ .Params.image }}">
 
-
-
+    </div>
+       <div class="card__content">
+         <div class="card__title"><h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1></div>
+         <p class="card__text"> <time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time></p>
+         <p class="card__text"> <time>{{ .Params.intro }}</time></p>
+         <!-- <button class="btn btn--block card__btn">Button</button> -->
+       </div>
+     </div>
+   </li>
+{{ end }}
 
 
 
