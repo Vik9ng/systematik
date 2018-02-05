@@ -1,38 +1,52 @@
 {{ partial "header.html" . }}
-<!-- <div class="row center-xs">
-    <div class="col-xs-6">
-        <div class="box">
-          <ul>
-              {{ range .Data.Pages }}
-                  <li>
-                      <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
-                      <time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
-                  </li>
-              {{ end }}
-            </ul>
 
-        </div>
-    </div>
-</div>
+<!-- {{ range .Data.Pages }}
 
- -->
-{{ range .Data.Pages }}
-   <li class="cards__item">
-     <div class="card">
-       <div class="card__image card__image--record">
-            <img src="{{ .Params.image }}">
+  <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+  <time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
 
-    </div>
-       <div class="card__content">
-         <div class="card__title"><h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1></div>
-         <p class="card__text"> <time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time></p>
-         <p class="card__text"> <time>{{ .Params.intro }}</time></p>
-         <!-- <button class="btn btn--block card__btn">Button</button> -->
-       </div>
-     </div>
-   </li>
+
 {{ end }}
 
+ -->
 
+{{ range .Data.Pages }}
+ <ul class="cards">
+   <li class="cards__item">
+      <div class="row">
+        <div class="col-xs-12 col-sm-5  col-md-5  col-lg-4">
+          <div class="card">
+            <div class="card__image card__image--fence"><img src="{{ .Params.image }}" ></div>
+               <div class="card__content">
+                 <div class="card__title"><h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1></div>
+                 <p class="card__text">{{ .Params.intro}}</p>
+                 <button class="btn btn--block card__btn">Button</button>
+        </div>
+       </div>
+     </div>
+     <div class="col-xs-12 col-sm-5  col-md-5  col-lg-4">
+       <div class="card">
+         <div class="card__image card__image--fence"><img src="{{ .Params.image }}" ></div>
+            <div class="card__content">
+              <div class="card__title"><h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1></div>
+              <p class="card__text">{{ .Params.intro}}</p>
+              <button class="btn btn--block card__btn">Button</button>
+     </div>
+    </div>
+  </div>
+  <div class="col-xs-12 col-sm-5  col-md-5  col-lg-4">
+    <div class="card">
+      <div class="card__image card__image--fence"><img src="{{ .Params.image }}" ></div>
+         <div class="card__content">
+           <div class="card__title"><h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1></div>
+           <p class="card__text">{{ .Params.intro}}</p>
+           <button class="btn btn--block card__btn">Button</button>
+  </div>
+ </div>
+</div>
+   </div>
+   </li>
+ </ul>
 
+ {{ end }}
 {{ partial "footer.html" .}}
