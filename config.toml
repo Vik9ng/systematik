@@ -24,3 +24,10 @@ sectionPagesMenu = "main"
     weight = 3
     identifier = "post"
     url = "/post/"
+    # 
+    # [[menu.main]]
+    # name = "Datavisualisering"
+    # title = "Datavisualisering"
+    # weight = 4
+    # identifier = "Datavisualisering"
+    # url = "/datavisualisering/"

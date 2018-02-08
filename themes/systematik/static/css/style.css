@@ -249,5 +249,19 @@ img {
   .burgermenu {
     display: none; } }
 /* BURGER MENU SLUT */
+/* ---------- Datavisualisering -------- */
+.diagram_container {
+  margin-top: 20vw;
+  transform: rotate(90deg); }
+
+.column_and_name_container p {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  font-size: 1vw; }
+
+svg {
+  display: i nline-block;
+  transform: rotate(180deg); }
 
 /*# sourceMappingURL=style.css.map */
