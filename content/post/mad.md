@@ -4,7 +4,7 @@ date: 2018-02-04T17:40:55+01:00
 draft: false
 image: img/mad.jpg
 intro: Det her skal fungere som intro tekst til de cards der er på list template. Hvis det virker er det mega fedt. og det ser det faktisk ud til at gøre. fedt nok. Så langt så godt
-facts: 1. det her er facts2. det her er facts 3. det her er facts 4. det her er facts 5. det her er facts
+facts: Each film opens with the static blue text, "A long time ago in a galaxy far, far Each film opens with the static blue text, "A long time ago in a galaxy far, far Each film opens with the static blue text, "A long time ago in a galaxy far, far Each film opens with the static blue text, "A long time ago in a galaxy far, far Each film opens with the static blue text, "A long time ago in a galaxy far, far Each film opens with the static blue text, "A long time ago in a galaxy far, far Each film opens with the static blue text, "A long time ago in a galaxy far, far
 ---
 
 

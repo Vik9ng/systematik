@@ -13,23 +13,36 @@
 
 
  <ul class="cards">
-   <li class="cards__item">
-      <div class="row">
+
+
 {{ range .Data.Pages }}
 
-        <div class="col-xs-12 col-sm-5  col-md-  col-lg-5">
+        <li class="cards__item">
           <div class="card">
             <div class=""><img src="{{ .Params.image }}" ></div>
                <div class="card__content">
-                 <div class="card__title"><h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1></div>
+
+                 <div class="card__title">
+                   <h1>
+                     <a href="{{ .Permalink }}">
+                       {{ .Title }}
+                     </a>
+                   </h1>
+                 </div>
+
                  <p class="card__text">{{ .Params.intro}}</p>
-                 <button class="btn btn--block card__btn">læs mere</button>
+
+                 <a href="{{ .Permalink }}">
+                   <button class="btn btn--block card__btn">
+                     {{ .Title }}
+                   </button>
+                 </a>
         </div>
        </div>
-     </div>
+    </li>
 
  {{ end }}
-</div>
-</li>
+
+
 </ul>
 {{ partial "footer.html" .}}
