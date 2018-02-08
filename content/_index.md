@@ -5,3 +5,5 @@ draft: false
 ---
 
 velkommen til blogger theme
+
+Det her theme er lavet med henblik på at blogge !

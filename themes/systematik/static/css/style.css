@@ -7,10 +7,6 @@
   max-height: 20%;
   background-size: cover; }
 
-body {
-  margin: 0;
-  font-size: 28px; }
-
 .header {
   background-color: #f1f1f1;
   padding: 30px;
@@ -18,7 +14,9 @@ body {
 
 #navbar {
   overflow: hidden;
-  background-color: #333; }
+  background-color: #333;
+  z-index: 100;
+  display: none; }
 
 #navbar a {
   float: left;
@@ -91,28 +89,22 @@ input[type=submit]:hover {
   padding: 1em; }
 
 /*# sourceMappingURL=style.css.map */
-
-
-/*# sourceMappingURL=style.css.map */
-@gray-darker:               #444444;
-@gray-dark:                 #696969;
-@gray:                      #999999;
-@gray-light:                #cccccc;
-@gray-lighter:              #ececec;
-@gray-lightest:             lighten(@gray-lighter,4%);
-
+@gray-darker :               #444444;
+@gray-dark :                 #696969;
+@gray :                      #999999;
+@gray-light :                #cccccc;
+@gray-lighter :              #ececec;
+@gray-lightest :             lighten(@gray-lighter,4%);
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 html {
-  background-color: #f0f0f0;
-}
+  background-color: #f0f0f0; }
 
 body {
-  color: @gray;
+  color: grey;
   font-family: 'Roboto','Helvetica Neue', Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -121,66 +113,56 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -moz-font-feature-settings: "liga" on;
-}
+  -moz-font-feature-settings: "liga" on; }
 
 img {
   height: auto;
   max-width: 100%;
-  vertical-align: middle;
-}
+  vertical-align: middle; }
 
 .btn {
   background-color: white;
-  border: 1px solid @gray-light;
-  //border-radius: 1rem;
-  color: @gray-dark;
+  border: 1px solid lightgrey;
+  color: darkgrey;
   padding: 0.5rem;
-  text-transform: lowercase;
-}
+  text-transform: lowercase; }
 
 .btn--block {
   display: block;
-  width: 100%;
-}
+  width: 100%; }
 
 .cards {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 .cards__item {
   display: flex;
-  padding: 1rem;
-  @media(min-width: 40rem) {
-    width: 50%;
-  }
-
-}
+  padding: 1rem; }
+  @media (min-width: 40rem) {
+    .cards__item {
+      width: 50%; } }
+  @media (min-width: 56rem) {
+    .cards__item {
+      width: 33.3333%; } }
 
 .card {
   background-color: white;
   border-radius: 0.25rem;
-  box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
   display: flex;
   flex-direction: column;
-  overflow: hidden;
-  &:hover {
-    .card__image {
-      filter: contrast(100%);
-    }
-  }
-}
+  overflow: hidden; }
+  .card:hover .card__image {
+    filter: contrast(100%); }
 
 .card__content {
   display: flex;
   flex: 1 1 auto;
   flex-direction: column;
-  padding: 1rem;
-}
+  padding: 1rem; }
 
 .card__image {
   background-position: center center;
@@ -189,30 +171,84 @@ img {
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
   filter: contrast(70%);
-  //filter: saturate(180%);
   overflow: hidden;
   position: relative;
-  transition: filter 0.5s cubic-bezier(.43,.41,.22,.91);;
-  &::before {
+  transition: filter 0.5s cubic-bezier(0.43, 0.41, 0.22, 0.91); }
+  .card__image::before {
     content: "";
-	  display: block;
-    padding-top: 56.25%; // 16:9 aspect ratio
-  }
-
-  }
-}
+    display: block;
+    padding-top: 56.25%; }
+  @media (min-width: 40rem) {
+    .card__image::before {
+      padding-top: 66.6%; } }
 
 .card__title {
-  color: @gray-dark;
+  color: darkgrey;
   font-size: 1.25rem;
   font-weight: 300;
   letter-spacing: 2px;
-  text-transform: uppercase;
-}
+  text-transform: uppercase; }
 
 .card__text {
   flex: 1 1 auto;
   font-size: 0.875rem;
   line-height: 1.5;
-  margin-bottom: 1.25rem;
-}
+  margin-bottom: 1.25rem; }
+
+/* BURGER MENU */
+.sidenav {
+  height: 23%;
+  width: 170px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: -170px;
+  background-color: darkgrey;
+  overflow-x: hidden;
+  transition: 0.5s;
+  border-radius: 0 0px 10px 0; }
+
+.sidenav a {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 4vw;
+  color: black;
+  display: block;
+  transition: 0.3s; }
+
+.sidenavn a:first-child {
+  padding-top: 20px; }
+
+.sidenav a:hover {
+  color: white; }
+
+.sidenav .closebtn {
+  position: absolute;
+  top: -12px;
+  right: 5px;
+  font-size: 36px;
+  margin-left: 50px; }
+
+.burger {
+  position: fixed;
+  margin-left: 5px;
+  top: 0; }
+
+.burger:hover {
+  color: white; }
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px; }
+
+  .sidenav a {
+    font-size: 18px; } }
+@media screen and (min-width: 500px) {
+  #navbar {
+    display: block; }
+
+  .burgermenu {
+    display: none; } }
+/* BURGER MENU SLUT */
+
+/*# sourceMappingURL=style.css.map */

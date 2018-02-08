@@ -4,10 +4,8 @@ date: 2018-02-04T17:40:55+01:00
 draft: false
 image: img/mad.jpg
 intro: Det her skal fungere som intro tekst til de cards der er på list template. Hvis det virker er det mega fedt. og det ser det faktisk ud til at gøre. fedt nok. Så langt så godt
+facts: 1. det her er facts2. det her er facts 3. det her er facts 4. det her er facts 5. det her er facts
 ---
-
-
-
 
 
 Star Wars følger drengen Anakin Skywalkers vej mod at blive jediridder; hans drøm kommer pludselig indenfor rækkevidde, da Qui-Gon Jinn og hans padawan (Jedi lærling) Obi-Wan Kenobi nødlander på Anakins hjemplanet Tatooine. Det går hurtigt op for Qui-Gon, at Anakin er ganske særlig, og drengens træning i "Kraften" påbegyndes selvom Jedi-rådet modsætter sig det. Allerede i en ganske ung alder forelsker Anakin sig i den unge dronning Padmé Amidala; en forelskelse der følger ham på godt og ondt de næste ti år af hans liv. Han genforenes med hende efter et attentat, der kostede Amidalas dobbeltgængers liv, og de gifter sig i hemmelighed selvom dette er forbudt for jedier.

@@ -5,12 +5,34 @@
     <link rel="stylesheet" href="http://example.org/css/style.css">
 
 
+
 </head>
 <body>
+
+  <div class="burgermenu">
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        
+        <a href="/">Hjem</a>
+        
+        <a href="/post/">Post</a>
+        
+        <a href="/doku/">Dokumentations side</a>
+        
+        <a href="/kontakt/">Kontakt</a>
+        
+      </div>
+      <div class="burger">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+      </div>
+    </div>
+
+
 
 <div class="header">
   <h2>Blogger Tema</h2>
   <p>velkommen til blogger theme</p>
+  
 </div>
 
 
@@ -18,11 +40,6 @@
   
 
   <a href="/">Hjem</a>
-
-
-  
-
-  <a href="/kontakt/">Kontakt</a>
 
 
   
@@ -49,16 +66,39 @@
 
 
 
-      
+ <ul class="cards">
+   <li class="cards__item">
+      <div class="row">
 
 
+        <div class="col-xs-12 col-sm-5  col-md-  col-lg-5">
+          <div class="card">
+            <div class=""><img src="" ></div>
+               <div class="card__content">
+                 <div class="card__title"><h1><a href="http://example.org/doku/typografi/">Typografi</a></h1></div>
+                 <p class="card__text"></p>
+                 <button class="btn btn--block card__btn">læs mere</button>
+        </div>
+       </div>
+     </div>
 
+ 
 
-      
+        <div class="col-xs-12 col-sm-5  col-md-  col-lg-5">
+          <div class="card">
+            <div class=""><img src="" ></div>
+               <div class="card__content">
+                 <div class="card__title"><h1><a href="http://example.org/doku/farver/">Farver</a></h1></div>
+                 <p class="card__text"></p>
+                 <button class="btn btn--block card__btn">læs mere</button>
+        </div>
+       </div>
+     </div>
 
-
-
-
+ 
+</div>
+</li>
+</ul>
 </body>
 
  <script src="/js/javascript.js"></script>

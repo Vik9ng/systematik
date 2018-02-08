@@ -10,43 +10,26 @@
 
  -->
 
-{{ range .Data.Pages }}
+
+
  <ul class="cards">
    <li class="cards__item">
       <div class="row">
-        <div class="col-xs-12 col-sm-5  col-md-5  col-lg-4">
+{{ range .Data.Pages }}
+
+        <div class="col-xs-12 col-sm-5  col-md-  col-lg-5">
           <div class="card">
-            <div class="card__image card__image--fence"><img src="{{ .Params.image }}" ></div>
+            <div class=""><img src="{{ .Params.image }}" ></div>
                <div class="card__content">
                  <div class="card__title"><h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1></div>
                  <p class="card__text">{{ .Params.intro}}</p>
-                 <button class="btn btn--block card__btn">Button</button>
+                 <button class="btn btn--block card__btn">læs mere</button>
         </div>
        </div>
      </div>
-     <div class="col-xs-12 col-sm-5  col-md-5  col-lg-4">
-       <div class="card">
-         <div class="card__image card__image--fence"><img src="{{ .Params.image }}" ></div>
-            <div class="card__content">
-              <div class="card__title"><h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1></div>
-              <p class="card__text">{{ .Params.intro}}</p>
-              <button class="btn btn--block card__btn">Button</button>
-     </div>
-    </div>
-  </div>
-  <div class="col-xs-12 col-sm-5  col-md-5  col-lg-4">
-    <div class="card">
-      <div class="card__image card__image--fence"><img src="{{ .Params.image }}" ></div>
-         <div class="card__content">
-           <div class="card__title"><h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1></div>
-           <p class="card__text">{{ .Params.intro}}</p>
-           <button class="btn btn--block card__btn">Button</button>
-  </div>
- </div>
-</div>
-   </div>
-   </li>
- </ul>
 
  {{ end }}
+</div>
+</li>
+</ul>
 {{ partial "footer.html" .}}

@@ -11,16 +11,16 @@ sectionPagesMenu = "main"
     identifier = "Hjem"
     url = "/"
 
-    [[menu.main]]
-    name = "Kontakt"
-    title = "Kontakt"
-    weight = 3
-    identifier = "Kontakt"
-    url = "/Kontakt/"
+    # [[menu.main]]
+    # name = "Kontakt"
+    # title = "Kontakt"
+    # weight = 2
+    # identifier = "Kontakt"
+    # url = "/Kontakt/"
 
     [[menu.main]]
     name = "Post"
     title = "Post"
-    weight = 4
+    weight = 3
     identifier = "post"
     url = "/post/"
