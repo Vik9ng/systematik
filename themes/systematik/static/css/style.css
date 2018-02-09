@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
 .front {
   max-width: 50%;
   max-height: 50%; }
@@ -124,7 +125,8 @@ img {
   border: 1px solid lightgrey;
   color: darkgrey;
   padding: 0.5rem;
-  text-transform: lowercase; }
+  text-transform: lowercase;
+  font-size: 3vw; }
 
 .btn--block {
   display: block;
@@ -193,6 +195,28 @@ img {
   font-size: 0.875rem;
   line-height: 1.5;
   margin-bottom: 1.25rem; }
+
+/*  button animation */
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s; }
+
+.btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s; }
+
+.btn:hover span {
+  padding-right: 25px; }
+
+.btn:hover span:after {
+  opacity: 1;
+  right: 0; }
 
 /* BURGER MENU */
 .sidenav {
@@ -263,5 +287,53 @@ img {
 svg {
   display: i nline-block;
   transform: rotate(180deg); }
+
+/* ----------------------- Loader -------------- */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif; }
+
+.loader {
+  width: 100px;
+  height: 80px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto; }
+
+.loader .image {
+  width: 100px;
+  height: 160px;
+  font-size: 40px;
+  text-align: center;
+  transform-origin: bottom center;
+  animation: 3s rotate infinite;
+  opacity: 0; }
+
+.loader span {
+  display: block;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 0; }
+
+@keyframes rotate {
+  0% {
+    transform: rotate(90deg); }
+  10% {
+    opacity: 0; }
+  35% {
+    transform: rotate(0deg);
+    opacity: 1; }
+  65% {
+    transform: rotate(0deg);
+    opacity: 1; }
+  80% {
+    opacity: 0; }
+  100% {
+    transform: rotate(-90deg); } }
 
 /*# sourceMappingURL=style.css.map */
