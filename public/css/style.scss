@@ -150,11 +150,13 @@ img {
   color: darkgrey;
   padding: 0.5rem;
   text-transform: lowercase;
+  font-size: 3vw;
 }
 
 .btn--block {
   display: block;
   width: 100%;
+
 }
 
 .cards {
@@ -233,6 +235,34 @@ img {
   font-size: 0.875rem;
   line-height: 1.5;
   margin-bottom: 1.25rem;
+}
+
+/*  button animation */
+
+
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn:hover span {
+  padding-right: 25px;
+}
+
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
 /* BURGER MENU */
@@ -370,4 +400,24 @@ html,body {
   100% {
     transform: rotate(-90deg);
   }
+}
+
+.p {
+
+}
+
+/* -------- Farver -------------- */
+
+.farve1 {
+  background-color: #96858f;
+  font-color: white;
+}
+.farve2 {
+  background-color: #6d7993;
+}
+.farve3 {
+  background-color: #9099a2;
+}
+.farve4 {
+  background-color: #d5d5d5;
 }

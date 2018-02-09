@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>Typografi</title>
+      <title>Typografi - Roboto</title>
       <link>http://example.org/doku/typografi/</link>
       <pubDate>Thu, 01 Feb 2018 08:53:43 +0100</pubDate>
       
@@ -26,7 +26,11 @@
       <pubDate>Thu, 01 Feb 2018 08:53:26 +0100</pubDate>
       
       <guid>http://example.org/doku/farver/</guid>
-      <description></description>
+      <description>#96858f
+ #6d7993
+ #9099a2
+ #d5d5d5
+ </description>
     </item>
     
   </channel>

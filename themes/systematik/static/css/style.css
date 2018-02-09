@@ -335,5 +335,18 @@ html, body {
     opacity: 0; }
   100% {
     transform: rotate(-90deg); } }
+/* -------- Farver -------------- */
+.farve1 {
+  background-color: #96858f;
+  font-color: white; }
+
+.farve2 {
+  background-color: #6d7993; }
+
+.farve3 {
+  background-color: #9099a2; }
+
+.farve4 {
+  background-color: #d5d5d5; }
 
 /*# sourceMappingURL=style.css.map */
