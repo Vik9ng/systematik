@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dokumentations side on Systematik</title>
-    <link>https://github.com/Vik9ng/systematik.git/doku/</link>
+    <link>vik9ng.github.io/systematik/doku/</link>
     <description>Recent content in Dokumentations side on Systematik</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <lastBuildDate>Thu, 01 Feb 2018 08:52:44 +0100</lastBuildDate>
     
-	<atom:link href="https://github.com/Vik9ng/systematik.git/doku/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="vik9ng.github.io/systematik/doku/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Feedback</title>
-      <link>https://github.com/Vik9ng/systematik.git/doku/feedback/</link>
+      <link>vik9ng.github.io/systematik/doku/feedback/</link>
       <pubDate>Fri, 09 Feb 2018 13:17:20 +0100</pubDate>
       
-      <guid>https://github.com/Vik9ng/systematik.git/doku/feedback/</guid>
+      <guid>vik9ng.github.io/systematik/doku/feedback/</guid>
       <description>Der er lagt en udfyldningsform ind i mappen &amp;ldquo;kontakt&amp;rdquo; så når man opretter en _index.md i mappen vil der automatisk komme en formspree</description>
     </item>
     
     <item>
       <title>Scaffolding</title>
-      <link>https://github.com/Vik9ng/systematik.git/doku/scaffolding/</link>
+      <link>vik9ng.github.io/systematik/doku/scaffolding/</link>
       <pubDate>Fri, 09 Feb 2018 11:51:24 +0100</pubDate>
       
-      <guid>https://github.com/Vik9ng/systematik.git/doku/scaffolding/</guid>
+      <guid>vik9ng.github.io/systematik/doku/scaffolding/</guid>
       <description>På dette tema er der lagt et flexboxgrid system ind. på list.html er gridded sat op således:
     &amp;lt;div class=&amp;quot;row center-xs&amp;quot;&amp;gt; &amp;lt;div class=&amp;quot;col-xs-12 col-sm-7&amp;quot;&amp;gt; &amp;lt;section&amp;gt;{{.Content}}&amp;lt;/section&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;col-xs-12 col-sm-4&amp;quot;&amp;gt; &amp;lt;section&amp;gt;{{ .Params.facts}}&amp;lt;/section&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt;  </description>
     </item>
     
     <item>
       <title>Animation</title>
-      <link>https://github.com/Vik9ng/systematik.git/doku/animation/</link>
+      <link>vik9ng.github.io/systematik/doku/animation/</link>
       <pubDate>Fri, 09 Feb 2018 11:45:39 +0100</pubDate>
       
-      <guid>https://github.com/Vik9ng/systematik.git/doku/animation/</guid>
+      <guid>vik9ng.github.io/systematik/doku/animation/</guid>
       <description>Det her er animation på en knap</description>
     </item>
     
     <item>
       <title>Typografi</title>
-      <link>https://github.com/Vik9ng/systematik.git/doku/typografi/</link>
+      <link>vik9ng.github.io/systematik/doku/typografi/</link>
       <pubDate>Thu, 01 Feb 2018 08:53:43 +0100</pubDate>
       
-      <guid>https://github.com/Vik9ng/systematik.git/doku/typografi/</guid>
+      <guid>vik9ng.github.io/systematik/doku/typografi/</guid>
       <description>Der er brugt Roboto font på dette tema.</description>
     </item>
     
     <item>
       <title>Farver</title>
-      <link>https://github.com/Vik9ng/systematik.git/doku/farver/</link>
+      <link>vik9ng.github.io/systematik/doku/farver/</link>
       <pubDate>Thu, 01 Feb 2018 08:53:26 +0100</pubDate>
       
-      <guid>https://github.com/Vik9ng/systematik.git/doku/farver/</guid>
+      <guid>vik9ng.github.io/systematik/doku/farver/</guid>
       <description>#96858f
  #6d7993
  #9099a2

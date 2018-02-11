@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nyeste Post&#39;s on Systematik</title>
-    <link>https://github.com/Vik9ng/systematik.git/post/</link>
+    <link>vik9ng.github.io/systematik/post/</link>
     <description>Recent content in Nyeste Post&#39;s on Systematik</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <lastBuildDate>Sun, 04 Feb 2018 17:39:55 +0100</lastBuildDate>
     
-	<atom:link href="https://github.com/Vik9ng/systematik.git/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="vik9ng.github.io/systematik/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Mad</title>
-      <link>https://github.com/Vik9ng/systematik.git/post/mad/</link>
+      <link>vik9ng.github.io/systematik/post/mad/</link>
       <pubDate>Sun, 04 Feb 2018 17:40:55 +0100</pubDate>
       
-      <guid>https://github.com/Vik9ng/systematik.git/post/mad/</guid>
+      <guid>vik9ng.github.io/systematik/post/mad/</guid>
       <description>Star Wars følger drengen Anakin Skywalkers vej mod at blive jediridder; hans drøm kommer pludselig indenfor rækkevidde, da Qui-Gon Jinn og hans padawan (Jedi lærling) Obi-Wan Kenobi nødlander på Anakins hjemplanet Tatooine. Det går hurtigt op for Qui-Gon, at Anakin er ganske særlig, og drengens træning i &amp;ldquo;Kraften&amp;rdquo; påbegyndes selvom Jedi-rådet modsætter sig det. Allerede i en ganske ung alder forelsker Anakin sig i den unge dronning Padmé Amidala; en forelskelse der følger ham på godt og ondt de næste ti år af hans liv.</description>
     </item>
     
     <item>
       <title>Meditation</title>
-      <link>https://github.com/Vik9ng/systematik.git/post/meditation/</link>
+      <link>vik9ng.github.io/systematik/post/meditation/</link>
       <pubDate>Sun, 04 Feb 2018 17:40:39 +0100</pubDate>
       
-      <guid>https://github.com/Vik9ng/systematik.git/post/meditation/</guid>
+      <guid>vik9ng.github.io/systematik/post/meditation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Træning</title>
-      <link>https://github.com/Vik9ng/systematik.git/post/tr%C3%A6ning/</link>
+      <link>vik9ng.github.io/systematik/post/tr%C3%A6ning/</link>
       <pubDate>Sun, 04 Feb 2018 17:40:19 +0100</pubDate>
       
-      <guid>https://github.com/Vik9ng/systematik.git/post/tr%C3%A6ning/</guid>
+      <guid>vik9ng.github.io/systematik/post/tr%C3%A6ning/</guid>
       <description></description>
     </item>
     

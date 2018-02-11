@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Systematik</title>
-    <link>https://github.com/Vik9ng/systematik.git/tags/</link>
+    <link>vik9ng.github.io/systematik/tags/</link>
     <description>Recent content in Tags on Systematik</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     
-	<atom:link href="https://github.com/Vik9ng/systematik.git/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="vik9ng.github.io/systematik/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
