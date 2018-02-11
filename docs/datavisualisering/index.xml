@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data-visualisering on Systematik</title>
+    <link>http://example.org/datavisualisering/</link>
+    <description>Recent content in Data-visualisering on Systematik</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>da</language>
+    <lastBuildDate>Thu, 08 Feb 2018 15:57:19 +0100</lastBuildDate>
+    
+	<atom:link href="http://example.org/datavisualisering/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

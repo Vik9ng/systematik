@@ -1,8 +1,10 @@
 baseURL = "http://example.org/"
 languageCode = "da"
-title = "My New Hugo Site"
+title = "Systematik"
 theme = "systematik"
+publishDir = "docs"
 sectionPagesMenu = "main"
+
 
 [[menu.main]]
     name = "Hjem"
@@ -24,7 +26,7 @@ sectionPagesMenu = "main"
     weight = 3
     identifier = "post"
     url = "/post/"
-    # 
+    #
     # [[menu.main]]
     # name = "Datavisualisering"
     # title = "Datavisualisering"

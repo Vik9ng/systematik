@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://example.org/doku/feedback/</loc>
+    <lastmod>2018-02-09T13:17:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/doku/scaffolding/</loc>
+    <lastmod>2018-02-09T11:51:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/doku/animation/</loc>
+    <lastmod>2018-02-09T11:45:39+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/datavisualisering/</loc>
+    <lastmod>2018-02-08T15:57:19+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/post/mad/</loc>
+    <lastmod>2018-02-04T17:40:55+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/post/meditation/</loc>
+    <lastmod>2018-02-04T17:40:39+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/post/tr%C3%A6ning/</loc>
+    <lastmod>2018-02-04T17:40:19+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/post/</loc>
+    <lastmod>2018-02-04T17:39:55+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/</loc>
+    <lastmod>2018-02-04T13:47:27+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/kontakt/</loc>
+    <lastmod>2018-02-02T11:08:08+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/doku/typografi/</loc>
+    <lastmod>2018-02-01T08:53:43+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/doku/farver/</loc>
+    <lastmod>2018-02-01T08:53:26+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/doku/</loc>
+    <lastmod>2018-02-01T08:52:44+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

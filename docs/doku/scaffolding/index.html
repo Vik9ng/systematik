@@ -1,0 +1,125 @@
+<html>
+<head>
+    <link rel="stylesheet" href="http://example.org/css/normalize.css">
+    <link rel="stylesheet" href="http://example.org/css/flexboxgrid.min.css">
+    <link rel="stylesheet" href="http://example.org/css/style.css">
+
+
+
+</head>
+<body>
+
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/da_DK/sdk.js#xfbml=1&version=v2.12';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+  <div class="burgermenu">
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        
+        <a href="/">Hjem</a>
+        
+        <a href="/post/">Post</a>
+        
+        <a href="/datavisualisering/">Data-visualisering</a>
+        
+        <a href="/doku/">Dokumentations side</a>
+        
+        <a href="/kontakt/">Kontakt</a>
+        
+      </div>
+      <div class="burger">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+      </div>
+    </div>
+
+
+
+<div class="header">
+  <h2>Scaffolding</h2>
+  <p>velkommen til blogger theme</p>
+  
+</div>
+
+
+<div id="navbar">
+  
+
+  <a href="/">Hjem</a>
+
+
+  
+
+  <a href="/post/">Post</a>
+
+
+  
+
+  <a href="/datavisualisering/">Data-visualisering</a>
+
+
+  
+
+  <a href="/doku/">Dokumentations side</a>
+
+
+  
+
+  <a href="/kontakt/">Kontakt</a>
+
+
+  
+
+</div>
+
+
+<div class="loader">
+  <div class="image">
+    <i class="fa fa-codepen"></i>
+  </div>
+  <span></span>
+</div>
+
+
+
+<div class="row center-xs">
+      <div class="col-xs-12 col-sm-7">
+            <h1>Scaffolding</h1>
+            <p><p>På dette tema er der lagt et flexboxgrid system ind. på list.html er gridded sat op således:</p>
+
+<div class="row center-xs">
+    <div class="col-xs-12 col-md-8">
+        <div class="box">
+              </div>
+        </div>
+    </div>
+</div>
+
+<pre><code>&lt;div class=&quot;row center-xs&quot;&gt;
+      &lt;div class=&quot;col-xs-12 col-sm-7&quot;&gt;
+            &lt;section&gt;{{.Content}}&lt;/section&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;col-xs-12 col-sm-4&quot;&gt;
+            &lt;section&gt;{{ .Params.facts}}&lt;/section&gt;
+      &lt;/div&gt;
+  &lt;/div&gt;
+</code></pre>
+ </p>
+      </div>
+  </div>
+
+
+
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+ <script src="/js/javascript.js"></script>
+
+
+</html>
+

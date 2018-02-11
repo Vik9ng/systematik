@@ -1,5 +1,9 @@
 ---
-title: "Typografi - Roboto"
+title: "Typografi"
 date: 2018-02-01T08:53:43+01:00
-image: img/typo.png
+image:
 ---
+
+Der er brugt Roboto font på dette tema.
+
+![hallo](../img/typo.png)

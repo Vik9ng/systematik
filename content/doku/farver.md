@@ -1,7 +1,7 @@
 ---
 title: "Farver"
 date: 2018-02-01T08:53:26+01:00
-facts: Disse farver er i kategorien Muted and Minimal
+facts: This example by Inga Gudoniene / MIOS pairs softer, desaturated, more muted colors to create an elegant look. You can achieve this timeless and elegant effect by choosing imagery with a cool, desaturated tone and pairing it with a cool grey. 
 ---
 <div class="farve1">
 <p>#96858f</p>
