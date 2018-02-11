@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://github.com/Vik9ng/systematik.git"
 languageCode = "da"
 title = "Systematik"
 theme = "systematik"
